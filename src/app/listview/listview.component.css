@@ -1,0 +1,21 @@
+
+
+.matcontent
+{
+    
+     
+    display:flex;
+   
+    flex-direction: column; 
+   padding: 10px; 
+   
+    flex-wrap: wrap;
+}
+
+.cardmy
+{
+    padding: 5px;
+}
+
+
+

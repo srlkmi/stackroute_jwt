@@ -1,0 +1,24 @@
+<div class="cls-expansion">
+    <mat-expansion-panel class="cls-matexp">
+         <mat-expansion-panel-header>
+            <mat-panel-title>
+           Employee
+           </mat-panel-title>
+           <mat-panel-description>
+              Recuritment Details 
+           </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div class="cls-fields">
+          <mat-form-field>
+                <mat-label> Title</mat-label>
+                <input matInput [(ngModel)]="newobj.title">
+          </mat-form-field>
+                <mat-form-field>
+                <mat-label> Text</mat-label>
+                <input matInput [(ngModel)]="newobj.text">     
+          </mat-form-field>
+          <input type=button value="Add Details" (click)="StoreNews()">
+        </div>
+        </mat-expansion-panel>
+  </div>
+

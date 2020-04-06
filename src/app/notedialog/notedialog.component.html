@@ -1,0 +1,15 @@
+ 
+<div mat-dialog-content> 
+  <mat-form-field>
+    <mat-label>title</mat-label>
+    <input matInput [(ngModel)]="notemy.text">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>title</mat-label>
+    <input matInput [(ngModel)]="notemy.title">
+  </mat-form-field>
+</div>
+ 
+<button (click)="updateRec()">Update</button>
+<button (click)="closedialog()">Close </button>

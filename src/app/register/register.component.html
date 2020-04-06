@@ -1,0 +1,23 @@
+
+<h1> Registration Page </h1>
+
+<form>
+
+    <input type=text matInput [formControl]="username"> <br>
+ <span> {{checkusername() }} </span>
+
+ 
+ <input type=text matInput [formControl]="password"> <br>
+<span> {{checkpassword()}} </span>
+
+<br>
+
+<button type="submit" (click)="getToken()">Login </button>
+<button (click)="validate()"> Validate User </button>
+<br>
+
+
+
+</form>
+
+

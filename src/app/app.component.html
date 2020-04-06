@@ -1,0 +1,96 @@
+<app-header></app-header>
+
+
+
+<br>
+<br>
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+<!-- <app-header></app-header>
+
+<router-outlet></router-outlet> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<app-login></app-login>
+-->
+
+
+<!--
+<app-register></app-register>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Example of template driven form 
+<form #fmyform="ngForm" name=myform  (ngSubmit)="store()">
+
+  <input type="text" required  [(ngModel)]="person.username"
+  name=txtname #uname="ngModel" placeholder="enter username">
+  
+  <div [hidden]="uname.valid || uname.pristine">
+    User Name Required
+  </div>
+  
+
+
+  <div *ngIf="uname.invalid && uname.touched">
+<div *ngIf="uname.errors.required">Name can not be null</div>
+ </div>
+  
+  
+  <br>
+
+  <input type="password" minlength="6" placeholder="password" name=txtpassword
+  [(ngModel)]="person.password" #pwd="ngModel">
+
+<div *ngIf="pwd.invalid && (pwd.dirty && pwd.touched)">
+  <small *ngIf="pwd.errors.minlength"> Password should be min 6 char</small>
+
+</div>
+
+
+
+<br>
+  <button type="submit" [disabled]="!fmyform.valid">Register</button>
+
+
+
+
+</form>
+
+-->
